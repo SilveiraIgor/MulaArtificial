@@ -27,6 +27,8 @@ Quando o programa termina de computar, agora ele mostra todas as partidas que ac
 
 Se o programa ainda estiver computando e você salvar alguma alteração no Conhecimento.txt, então o programa começa a rodar novamente do zero com o novo conhecimento. Essa alteração foi feita porque era chato ficar fechando e abrindo novamente.
 
+As probabilidades dos últimos rounds estavam sendo agrupadas de maneira irresponsável, agora se somar a probabilidade de um time ficar [(3-0) + (3-1) + (3-2) + (2-3) + (1-3) + (0-3)] sempre vai dar 100%. 
+
 ### 03/12/24: Segunda Versão
 Essa é a versão do segundo vídeo.
 
