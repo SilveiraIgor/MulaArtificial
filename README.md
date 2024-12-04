@@ -38,7 +38,7 @@ Adicionei um pouco de inferencia em linguagem natural sobre o Conhecimento.txt, 
 3. Todos > Furia (Todas as equipes ganham da Furia)
 4. Furia > Todos (Furia ganha de todos os times)
 5. Furia > Todos - NaVi G2 (Furia ganha de todos os times, menos da NaVi e da G2, depois do - pode vir qualquer número de times)
-6. Todos - NaVi G2 > Furia (Todos menos a NaVi e a G2 ganham da Furia, entre o - e o > podem ter qualquer quantidade de times)
+6. Todos - NaVi G2 > Furia (Todos menos a NaVi e a G2 ganham da Furia, entre o - e o > pode ter qualquer quantidade de times)
 
 ### 02/12/24: Primeira Versão 
 O programa base, igual está no primeiro vídeo.  
