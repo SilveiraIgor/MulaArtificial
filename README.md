@@ -1,4 +1,5 @@
 #Como usar:
+
 Para quem só tá querendo usar o programa, siga os seguintes passos:
 1. Clique no botão verde escrito "Code" e "Download Zip".
 2. Extraia o .rar chamado MulaArtificial-main, depois extraia o .rar chamado Mula.
