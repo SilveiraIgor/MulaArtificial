@@ -1,4 +1,4 @@
-#Como usar:
+# Como usar:
 
 Para quem só tá querendo usar o programa, siga os seguintes passos:
 1. Clique no botão verde escrito "Code" e "Download Zip".
@@ -8,12 +8,12 @@ Para quem só tá querendo usar o programa, siga os seguintes passos:
 5. Abra o Conhecimento.txt e coloque quem você acha que ganha de quem no formato: Time1 > Time2 (Time1 ganha do Time2 --- maiores informações abaixo). Salve as suas modificações.  <b> A última linha desse txt deve ser um começo de linha sem nada escrito. </b>
 6. Execute o MulaArtificial, espere 5 segundos e a simulação vai começar a ser exibida. Para dar um exemplo de como eu usei, assista uns pedaços do vídeo https://youtu.be/4GtwHQ-7srU, a versão atual do MulaArtificial será diferente da do video, para maiores informações leia o Mudanças.
 
-#Videos: 
+# Videos: 
 Uma breve explicação sobre o funcionamento & objetivo do programa pode ser encontrado em: https://youtu.be/uor9v8o8XJs
 
 O video simulando o Legends que talvez ajude a entender como funciona a segunda versão: https://youtu.be/4GtwHQ-7srU
 
-#Para os programadores:
+# Para os programadores:
 Já aviso de antemão que o projeto inteiro foi feito em menos de um final de semana, então o código não está nem otimizado e nem bonito.
 
 Se mesmo assim você quiser ver o que tá rolando, dentro do rar terá 4 arquivos Python:
@@ -22,4 +22,4 @@ Se mesmo assim você quiser ver o que tá rolando, dentro do rar terá 4 arquivo
 - LeitorConhecimento.py, que só lê o conhecimento, ela tem espaço para crescer para facilitar certas coisas.
 - Round.py, que controla tudo que acontece num round e também o que é um confronto. Esse é o arquivo mais importante.
 
-#Mudanças:
+# Mudanças:
