@@ -29,6 +29,8 @@ Se o programa ainda estiver computando e você salvar alguma alteração no Conh
 
 As probabilidades dos últimos rounds estavam sendo agrupadas de maneira irresponsável, agora se somar a probabilidade de um time ficar [(3-0) + (3-1) + (3-2) + (2-3) + (1-3) + (0-3)] sempre vai dar 100%. 
 
+Tirei a coluna 0-0 da tabela e adicionei a Classificar, que é a soma de (3-0)+(3-1)+(3-2)
+
 ### 03/12/24: Segunda Versão
 Essa é a versão do segundo vídeo.
 
