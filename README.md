@@ -55,3 +55,25 @@ Se mesmo assim você quiser ver o que tá rolando, dentro do rar terá 4 arquivo
 - LeitorTimes.py, que lê os times e também define a classe Equipe.
 - LeitorConhecimento.py, que só lê o conhecimento, ela tem espaço para crescer para facilitar certas coisas.
 - Round.py, que controla tudo que acontece num round e também o que é um confronto. Esse é o arquivo mais importante.
+
+# Próximos adições:
+Sem nenhuma ordem de importância ou de comprometimento:
+1. Checar consistência da base de conhecimento (interessante e fácil).
+
+   Se houver uma regra do tipo A > B e B > A, então as duas se anulam. Vantagens: dá para facilmente simular o agrupado de crenças de duas ou mais pessoas: se elas concordam, então continua a regra, se eles discordam as regras se anulam, se apenas um cravou então fica a cravada; para três ou mais, se 2 discordam e o terceiro cravou, fica a cravada do terceiro (o mesmo vale para N pessoas). Desvantagens: às vezes essa inconsistência foi um erro e a pessoa queria cravar alguma das duas regras.
+   
+2. Otimizar o código (desafiador).
+
+   O código foi feito todo com a primeira ideia que veio à cabeça e funcionou. Dá para agora checar as partes individuais e ver se está com a melhor solução assintótica. Coisas fáceis de melhorar são: trocar testes de pertencimento de lista por pertencimento a dicionário, ver outros jeitos de printar as informações, diminuir o uso ou otimizar o deepcopy. Também dá para medir o tempo de cada função e ver qual que está pesando mais. 
+
+3. Interface gráfica (não gosto, mas fica mais amigável para os outros).
+
+   Teria que aprender a fazer interface gráfica em python e tem o problema de tornar a execução mais pesada em algo que já é potencialmente custoso. Talvez fosse interessante fazer um gerador de base de conhecimento com interface, já que essa parte não é pesada e tem muito espaço para erro de digitação.
+
+4. Calcular probabilidade conjunta (útil, interessante e fácil se limitado).
+
+   Parando para pensar, o que eu quero não é simplesmente calcular a probabilidade de um time ficar em cada um dos slots, o que eu quero é calcular o argmax da probabilidade conjunta. O que dá para fazer de começo é: terminada a execução, calcular quais são os 2 times que mais tem chance de ficarem juntos no 0-3 e no 3-0. Se houver algum jeito inteligente de fazer isso, da para esticar para fazer o mesmo com os 5 times 3-1 e 3-2. 
+   
+6. Estender as regras para lidarem com probabilidade (interessante e desafiador).
+
+   Já que o programa consegue convergir em relativamente pouco tempo com certa quantidade de cravadas, dá para esticar o programa para lidar com regras probabilisticas. Já que no final sobram as partidas que não quero cravar, pode ser que eu queira refinar os resultados para dizer coisas tipo: estou 60% inclinado para a vitória de um dos times. 
